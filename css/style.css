@@ -1,14 +1,13 @@
 body {
-  background: #415a6c;
   margin: 0;
-  font-family: 'Oswald';
-}
+  font-family: "Oswald"; }
+
 .parallax-container {
   position: fixed;
   overflow: visible;
   width: 100%;
-  height: 850px;
-}
+  height: 850px; }
+
 .parallax-layer {
   width: 100%;
   height: 500px;
@@ -17,108 +16,87 @@ body {
   top: 0;
   background-position: bottom center;
   background-repeat: repeat-x;
-  background-size: 960px 253px;
-}
-  .layer-0 {
-    top: 0;
-    z-index: 5;
-    background: #FFE9C5 url('../img/Title.png') no-repeat top 30px center;
-    background-size: 234px 129px;
-  }
-  .layer-1 {
-    top: -90px;
-    z-index: 5;
-    background-image: url('../img/BigClouds2.png');
-    background-size: 960px 303px;
-  }
-  .layer-2 {
-    top: 30px;
-    z-index: 10;
-    background-image: url('../img/City.png');
-    background-size: 960px 253px;
-  }
-  .layer-3 {
-    top: 77px;
-    z-index: 15;
-    background-image: url('../img/Bushes-02.png');
-    background-size: 1280px 223px;
-  }
-  .layer-4 {
-    top: 100px;
-    z-index: 20;
-    background-image: url('../img/Fasil2.png');
-    background-size: 1600px 230px;
+  background-size: 960px 253px; }
 
-  }
-  .layer-5 {
-    top: 150px;
-    z-index: 25;
-    background-image: url('');
-  }
-  
+.layer-0 {
+  top: 0;
+  z-index: 5;
+  background: #ffe9c5;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 40px; }
+
+.layer-1 {
+  top: -90px;
+  z-index: 5;
+  background-image: url("../img/BigClouds2.png");
+  background-size: 960px 303px; }
+
+.layer-2 {
+  top: 30px;
+  z-index: 10;
+  background-image: url("../img/City.png");
+  background-size: 960px 253px; }
+
+.layer-3 {
+  top: 77px;
+  z-index: 15;
+  background-image: url("../img/Bushes-02.png");
+  background-size: 1280px 223px; }
+
+.layer-4 {
+  top: 100px;
+  z-index: 20;
+  background-image: url("../img/Fasil2.png");
+  background-size: 1600px 230px; }
+
+.layer-5 {
+  top: 150px;
+  z-index: 25;
+  background-image: url(""); }
+
 .content {
   position: absolute;
   top: 600px;
   background: #3F264D;
   width: 100%;
-  min-height: 1500px;
-}
-  .content h1 {
-    color: #fff;
-    font-size: 2em;
-    text-transform: uppercase;
-    text-align: center;
-  }
+  min-height: 1500px; }
 
-/*----- FOUNDATION ----*/
-
+/*----- FOUNDATION ---- */
 .button {
   background-color: #3F264D;
   border-color: #3F264D;
-  color: #FFFFFF;
-}
+  color: #FFFFFF; }
 
 p {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #FFE9C5;
-}
+  color: #ffe9c5; }
 
 .custom-smalltext {
-  font-size: 10px;
-}
+  font-size: 10px; }
 
 .content h1 {
-  color: #FFE9C5;
-}
+  color: #ffe9c5; }
 
 h4 {
-  color: #F76E2B;
-}
+  color: #F76E2B; }
 
 hr {
   border: solid #F7C59C;
   border-width: 1px 0 0;
   clear: both;
   margin: 1.25rem 0 1.1875rem;
-  height: 0;
-}
+  height: 0; }
 
 li {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #EDD3AE;
-}
+  color: #EDD3AE; }
 
 .footertext {
-  font-size: 10px;
-}
+  font-size: 10px; }
 
-/* Colors used:
-
-  light cream: FFE9C5
-  Maroonish: 9F3647
-  Clouds: F7C59C
-*/
+/*# sourceMappingURL=style.css.map */
