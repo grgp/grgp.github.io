@@ -1,0 +1,35 @@
+$offblack: #505050;
+
+body {
+	font-family: Lato;
+}
+
+h5 {
+	font-family: 'Open Sans';
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.opening-card {
+	margin-top: 100px;
+
+	h2, p {
+		font-family: Lato;
+		font-size: 30px;
+		font-weight: 900;
+		color: $offblack
+	}
+
+	h2 {
+		margin-bottom: 28px;
+	}
+
+	p {
+		line-height: 1.18em;
+		margin-bottom: 20px;
+	}
+
+	ul li {
+		display: inline-block;
+	}
+}

@@ -1,0 +1,24 @@
+body {
+  font-family: Lato; }
+
+h5 {
+  font-family: 'Open Sans';
+  font-size: 22px;
+  font-weight: 300; }
+
+.opening-card {
+  margin-top: 100px; }
+  .opening-card h2, .opening-card p {
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 900;
+    color: #505050; }
+  .opening-card h2 {
+    margin-bottom: 28px; }
+  .opening-card p {
+    line-height: 1.18em;
+    margin-bottom: 20px; }
+  .opening-card ul li {
+    display: inline-block; }
+
+/*# sourceMappingURL=styling.css.map */
