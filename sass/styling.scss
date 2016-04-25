@@ -1,4 +1,5 @@
 $offblack: #505050;
+$offgray: #808080;
 
 body {
 	font-family: Lato;
@@ -29,7 +30,17 @@ h5 {
 		margin-bottom: 20px;
 	}
 
-	ul li {
-		display: inline-block;
+	ul {
+		padding-left: 0;
+		padding-top: 5px;
+		li {
+			display: inline-block;
+			margin-right: 16px;
+		}
+	}
+
+	.fa {
+		color: $offblack;
+		font-size: 2em;
 	}
 }

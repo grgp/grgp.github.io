@@ -18,7 +18,14 @@ h5 {
   .opening-card p {
     line-height: 1.18em;
     margin-bottom: 20px; }
-  .opening-card ul li {
-    display: inline-block; }
+  .opening-card ul {
+    padding-left: 0;
+    padding-top: 5px; }
+    .opening-card ul li {
+      display: inline-block;
+      margin-right: 16px; }
+  .opening-card .fa {
+    color: #505050;
+    font-size: 2em; }
 
 /*# sourceMappingURL=styling.css.map */
