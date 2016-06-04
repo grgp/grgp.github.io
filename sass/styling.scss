@@ -1,18 +1,19 @@
 $offblack: #505050;
 $offgray: #808080;
+$lightgray: #808080;
 
 body {
 	font-family: Lato;
 }
 
-h5 {
+h3 {
 	font-family: 'Open Sans';
 	font-size: 22px;
 	font-weight: 300;
 }
 
 .opening-card {
-	margin-top: 100px;
+	margin-top: 80px;
 
 	h2, p {
 		font-family: Lato;
@@ -27,12 +28,13 @@ h5 {
 
 	p {
 		line-height: 1.18em;
-		margin-bottom: 20px;
+		margin-bottom: 30px;
 	}
 
 	ul {
 		padding-left: 0;
 		padding-top: 5px;
+		margin-bottom: 80px;
 		li {
 			display: inline-block;
 			margin-right: 16px;
@@ -43,4 +45,39 @@ h5 {
 		color: $offblack;
 		font-size: 2em;
 	}
+}
+
+.side-card {
+	p {
+		margin-top: 20px;
+		margin-bottom: 10px;
+		font-family: Lato;
+		font-size: 16px;
+		font-weight: 300;
+		color: $offgray;
+	}	
+
+	h2 {
+		color: $lightgray;
+	}
+
+	h4 {
+		padding-top: 12px;
+		font-family: Lato;
+		font-size: 20px;
+		font-weight: 600;
+		color: $offgray;
+	}
+
+	.links { 
+		margin-bottom: 0;
+		li {
+			display: block;
+			font-size: 16px;
+			a {
+				color: $offgray;
+			}
+		}
+	}
+
 }

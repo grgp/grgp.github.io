@@ -1,13 +1,13 @@
 body {
   font-family: Lato; }
 
-h5 {
+h3 {
   font-family: 'Open Sans';
   font-size: 22px;
   font-weight: 300; }
 
 .opening-card {
-  margin-top: 100px; }
+  margin-top: 80px; }
   .opening-card h2, .opening-card p {
     font-family: Lato;
     font-size: 30px;
@@ -17,15 +17,39 @@ h5 {
     margin-bottom: 28px; }
   .opening-card p {
     line-height: 1.18em;
-    margin-bottom: 20px; }
+    margin-bottom: 30px; }
   .opening-card ul {
     padding-left: 0;
-    padding-top: 5px; }
+    padding-top: 5px;
+    margin-bottom: 80px; }
     .opening-card ul li {
       display: inline-block;
       margin-right: 16px; }
   .opening-card .fa {
     color: #505050;
     font-size: 2em; }
+
+.side-card p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  color: #808080; }
+.side-card h2 {
+  color: #808080; }
+.side-card h4 {
+  padding-top: 12px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 600;
+  color: #808080; }
+.side-card .links {
+  margin-bottom: 0; }
+  .side-card .links li {
+    display: block;
+    font-size: 16px; }
+    .side-card .links li a {
+      color: #808080; }
 
 /*# sourceMappingURL=styling.css.map */
