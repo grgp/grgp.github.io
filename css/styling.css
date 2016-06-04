@@ -25,6 +25,8 @@ h3 {
     .opening-card ul li {
       display: inline-block;
       margin-right: 16px; }
+  .opening-card .left-p {
+    margin-bottom: 50px; }
   .opening-card .fa {
     color: #505050;
     font-size: 2em; }
