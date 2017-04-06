@@ -63,9 +63,8 @@
     $(function(){
       var bgimage = new Image();      
       bgimage.src="img/back.jpg";
-      $("body").hide();
       $(bgimage).load(function(){
-        $("body").css("background","url("+$(this).attr("src")+")"+" no-repeat center center fixed").fadeIn(500);
+        $("body").css("background","url("+$(this).attr("src")+")"+" no-repeat center center fixed");
       }); 
     });
   </script>
