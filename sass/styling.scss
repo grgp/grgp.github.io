@@ -1,6 +1,13 @@
-$offblack: #505050;
-$offgray: #808080;
-$lightgray: #808080;
+body { 
+  background: url(../img/back.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+$offwhite: #f9f9f9;
+$offwhite: #f9f9f9;
 
 body {
 	font-family: Lato;
@@ -8,18 +15,19 @@ body {
 
 h3 {
 	font-family: 'Open Sans';
-	font-size: 22px;
-	font-weight: 300;
+	// font-size: 22px;
+	// font-weight: 300;
 }
 
 .opening-card {
-	margin-top: 80px;
+	margin-top: 140px;
+	margin-bottom: 30px;
 
 	h2, p {
-		font-family: Lato;
+		font-family: 'PT Sans';
 		font-size: 30px;
-		font-weight: 900;
-		color: $offblack
+		font-weight: 600;
+		color: $offwhite;
 	}
 
 	h2 {
@@ -42,13 +50,23 @@ h3 {
 	}
 
 	.left-p {
-		margin-bottom: 50px;
+		margin-bottom: 30px;
+	}
+
+	p.left-p-small {
+		font-size: 16px;
+		font-weight: 400;
+		color: $offwhite;
 	}
 
 	.fa {
-		color: $offblack;
+		color: $offwhite;
 		font-size: 2em;
 	}
+}
+
+.left-card {
+	margin-bottom: 60px;
 }
 
 .side-card {
@@ -58,11 +76,13 @@ h3 {
 		font-family: Lato;
 		font-size: 16px;
 		font-weight: 300;
-		color: $offgray;
-	}	
+		color: $offwhite;
+	}
 
-	h2 {
-		color: $lightgray;
+	h3 {
+		color: $offwhite;
+		font-size: 30px;
+		font-weight: 600;
 	}
 
 	h4 {
@@ -70,18 +90,27 @@ h3 {
 		font-family: Lato;
 		font-size: 20px;
 		font-weight: 600;
-		color: $offgray;
+		color: $offwhite;
 	}
 
-	.links { 
+	.links {
 		margin-bottom: 0;
-		li {
+		li, li a {
 			display: block;
 			font-size: 16px;
-			a {
-				color: $offgray;
-			}
+			color: $offwhite;
+			padding-bottom: 1px;
 		}
 	}
 
+}
+
+.footer {
+	p {
+		font-size: 9px;
+		color: rgba(255,255,255,0.83);
+	}
+	a {
+		color: $offwhite;
+	}
 }
