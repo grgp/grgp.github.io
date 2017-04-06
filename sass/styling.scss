@@ -1,5 +1,6 @@
 body { 
-  background: url(../img/back.jpg) no-repeat center center fixed; 
+  // background-color: rgb(12, 28, 41);
+  background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -10,107 +11,107 @@ $offwhite: #f9f9f9;
 $offwhite: #f9f9f9;
 
 body {
-	font-family: Lato;
+    font-family: Lato;
 }
 
 h3 {
-	font-family: 'Open Sans';
-	// font-size: 22px;
-	// font-weight: 300;
+    font-family: 'Open Sans';
+    // font-size: 22px;
+    // font-weight: 300;
 }
 
 .opening-card {
-	margin-top: 140px;
-	margin-bottom: 30px;
+    margin-top: 140px;
+    margin-bottom: 30px;
 
-	h2, p {
-		font-family: 'PT Sans';
-		font-size: 30px;
-		font-weight: 600;
-		color: $offwhite;
-	}
+    h2, p {
+        font-family: 'PT Sans';
+        font-size: 30px;
+        font-weight: 600;
+        color: $offwhite;
+    }
 
-	h2 {
-		margin-bottom: 28px;
-	}
+    h2 {
+        margin-bottom: 28px;
+    }
 
-	p {
-		line-height: 1.18em;
-		margin-bottom: 30px;
-	}
+    p {
+        line-height: 1.18em;
+        margin-bottom: 30px;
+    }
 
-	ul {
-		padding-left: 0;
-		padding-top: 5px;
-		margin-bottom: 80px;
-		li {
-			display: inline-block;
-			margin-right: 16px;
-		}
-	}
+    ul {
+        padding-left: 0;
+        padding-top: 5px;
+        margin-bottom: 80px;
+        li {
+            display: inline-block;
+            margin-right: 16px;
+        }
+    }
 
-	.left-p {
-		margin-bottom: 30px;
-	}
+    .left-p {
+        margin-bottom: 30px;
+    }
 
-	p.left-p-small {
-		font-size: 16px;
-		font-weight: 400;
-		color: $offwhite;
-	}
+    p.left-p-small {
+        font-size: 16px;
+        font-weight: 400;
+        color: $offwhite;
+    }
 
-	.fa {
-		color: $offwhite;
-		font-size: 2em;
-	}
+    .fa {
+        color: $offwhite;
+        font-size: 2em;
+    }
 }
 
 .left-card {
-	margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .side-card {
-	p {
-		margin-top: 20px;
-		margin-bottom: 10px;
-		font-family: Lato;
-		font-size: 16px;
-		font-weight: 300;
-		color: $offwhite;
-	}
+    p {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 300;
+        color: $offwhite;
+    }
 
-	h3 {
-		color: $offwhite;
-		font-size: 30px;
-		font-weight: 600;
-	}
+    h3 {
+        color: $offwhite;
+        font-size: 30px;
+        font-weight: 600;
+    }
 
-	h4 {
-		padding-top: 12px;
-		font-family: Lato;
-		font-size: 20px;
-		font-weight: 600;
-		color: $offwhite;
-	}
+    h4 {
+        padding-top: 12px;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: 600;
+        color: $offwhite;
+    }
 
-	.links {
-		margin-bottom: 0;
-		li, li a {
-			display: block;
-			font-size: 16px;
-			color: $offwhite;
-			padding-bottom: 1px;
-		}
-	}
+    .links {
+        margin-bottom: 0;
+        li, li a {
+            display: block;
+            font-size: 16px;
+            color: $offwhite;
+            padding-bottom: 0px;
+        }
+    }
 
 }
 
 .footer {
-	p {
-		font-size: 9px;
-		color: rgba(255,255,255,0.83);
-	}
-	a {
-		color: $offwhite;
-	}
+    p {
+        font-size: 9px;
+        color: rgba(255,255,255,0.83);
+    }
+    a {
+        color: $offwhite;
+    }
 }
